@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+					
+	<field name="changeType" type="list" filter="string"
+		default="" label="change type">
+		<option value="security"/>
+		<option value="fix"/>
+		<option value="language"/>
+		<option value="addition"/>
+		<option value="change"/>
+		<option value="remove"/>
+		<option value="note"/>
+		<option value="note_link_download">Link Download (note)</option>
+		<option value="note_link_release">Link Release page/more infos (note)</option>
+		<option value="note_link_changelogs">Link Changelogs (note)</option>
+		<option value="note_lastTests">Last tests (note)</option>
+		<option value="requirement">requirement</option>
+		<option value="requirement_minimumPhp">minimumPhp (requirement)</option>
+		<option value="requirement_maximumPhp">maximumPhp (requirement)</option>
+		<option value="requirement_minimumJoomla">minimumJoomla (requirement)</option>
+		<option value="requirement_maximumJoomla">maximumJoomla (requirement)</option>
+	</field>
+
+
+	<field name="text" class="extended-width" type="textarea" filter="raw"
+		label="text"
+		description=""
+		default="" />
+</form>
