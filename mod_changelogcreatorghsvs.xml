@@ -57,6 +57,7 @@
 					default="" label="element" required="true">
 					<option value="venoboxghsvs">plg_system_venoboxghsvs (element: venoboxghsvs)</option>
 					<option value="hyphenateghsvs">plg_system_hyphenateghsvs (element: hyphenateghsvs)</option>
+					<option value="bs3ghsvs">plg_system_bs3ghsvs (element: bs3ghsvs)</option>
 				</field>
 
 				<field name="version" type="text"
