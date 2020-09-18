@@ -23,6 +23,14 @@ $translates = [
 $nl2br = [
 	'note_lastTests'
 ];
+$replaceWhat = [
+	'<',
+	'>',
+];
+$replaceWhith = [
+	'&lt;',
+	'&gt;',
+];
 
 $nl = "\n";
 
@@ -42,6 +50,11 @@ if (is_object($list) && count(get_object_vars($list)))
 		if (!($entry->text = trim($entry->text)))
 		{
 			continue;
+		}
+		
+		if ($entry->replaceWhatWith === 1)
+		{
+			$entry->text = str_replace($replaceWhat, $replaceWhith, $entry->text);
 		}
 		
 		if (in_array($entry->changeType, $nl2br))

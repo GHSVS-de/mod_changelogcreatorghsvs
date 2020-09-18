@@ -19,11 +19,19 @@
 		<option value="requirement_maximumPhp">maximumPhp (requirement)</option>
 		<option value="requirement_minimumJoomla">minimumJoomla (requirement)</option>
 		<option value="requirement_maximumJoomla">maximumJoomla (requirement)</option>
+		<option value="requirement_allowDowngrades">allowDowngrades (requirement)</option>
 	</field>
-
 
 	<field name="text" class="extended-width" type="textarea" filter="raw"
 		label="text"
 		description=""
 		default="" />
+
+	<field name="replaceWhatWith" type="list" filter="integer"
+		label="Replacer"
+		description="e.g. &gt; to &amp; gt; if defined in tmpl/*.php"
+		default="0">
+		<option value="0">JNO</option>
+		<option value="1">JYES</option>
+	</field>
 </form>

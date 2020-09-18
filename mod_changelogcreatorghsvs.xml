@@ -55,9 +55,19 @@
 
 				<field name="element" type="list" filter="string"
 					default="" label="element" required="true">
-					<option value="venoboxghsvs">plg_system_venoboxghsvs (element: venoboxghsvs)</option>
-					<option value="hyphenateghsvs">plg_system_hyphenateghsvs (element: hyphenateghsvs)</option>
+
+					<option value="syntaxhighlighterghsvs">
+						plg_editors-xtd_syntaxhighlighterghsvs (element: syntaxhighlighterghsvs)
+					</option>
+					
 					<option value="bs3ghsvs">plg_system_bs3ghsvs (element: bs3ghsvs)</option>
+
+					<option value="hyphenateghsvs">plg_system_hyphenateghsvs (element: hyphenateghsvs)</option>
+
+					<option value="venoboxghsvs">plg_system_venoboxghsvs (element: venoboxghsvs)</option>
+
+					
+					
 				</field>
 
 				<field name="version" type="text"
@@ -74,6 +84,7 @@
 					default="" label="folder">
 					<option value="">JNONE</option>
 					<option value="content"/>
+					<option value="editors-xtd"/>
 					<option value="system"/>
 				</field>
 
