@@ -3,6 +3,9 @@
 /dist/
 .DS_Store
 **/_notes
+/_notes
+_notes
+_notes/**
 __done/
 log.txt
 prepros.config
