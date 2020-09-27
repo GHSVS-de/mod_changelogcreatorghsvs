@@ -6,6 +6,7 @@
 /_notes
 _notes
 _notes/**
+dwsync.xml
 __done/
 log.txt
 prepros.config
@@ -13,3 +14,4 @@ prepros-6.config
 *.zip
 prepros.config
 prepros-6.config
+src/Field/_notes/dwsync.xml
