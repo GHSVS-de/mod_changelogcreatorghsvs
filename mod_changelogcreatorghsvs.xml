@@ -88,6 +88,12 @@
 					<option value="system"/>
 				</field>
 
+				<field name="docDE" type="textarea"
+					label="Deutsche Doku" />
+
+				<field name="docEN" type="textarea"
+					label="English doc" />
+
 			   <field
 				   name="changelog"
 				   type="subform"
@@ -99,6 +105,7 @@
 				   layout="joomla.form.field.subform.repeatable-table"
 				   formsource="administrator/modules/mod_changelogcreatorghsvs/myforms/subform.xml"
 			   />
+
 			</fieldset>
 
 			<fieldset name="output" label="Output">

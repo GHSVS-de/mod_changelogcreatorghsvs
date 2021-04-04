@@ -44,7 +44,9 @@ if (is_object($list) && count(get_object_vars($list)))
 	$html[] = '<type>' . $params->get('type') . '</type>';
 	$html[] = '<folder>' . $params->get('folder') . '</folder>';
 	$html[] = '<version>' . $params->get('version') . '</version>';
-	
+	$html[] = '<docDE>' . $params->get('docDE') . '</docDE>';
+	$html[] = '<docEN>' . $params->get('docEN') . '</docEN>';
+
 	foreach ($list as $entry)
 	{
 		if (!($entry->text = trim($entry->text)))

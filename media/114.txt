@@ -1,0 +1,37 @@
+<changelog>
+<element>syntaxhighlighterghsvs</element>
+<type>plugin</type>
+<folder>editors-xtd</folder>
+<version>2020.09.18</version>
+<fix>
+<item><![CDATA[
+Force JS reload in browser by time()-version string
+]]></item>
+</fix>
+<note>
+<item><![CDATA[
+<a href="https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs/archive/2020.09.18.zip" >Direct download</a>
+]]></item>
+<item><![CDATA[
+<a href="https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs/releases/tag/2020.09.18" >Release page, more infos</a>
+]]></item>
+<item><![CDATA[
+<a href="https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs_xtd&version=2020.09.18" >Changelogs</a>
+]]></item>
+<item><![CDATA[
+Last tests: Joomla 3.9.22-dev<br />
+PHP 7.4<br />
+Edge (chromium), Firefox<br />
+JCE editor.<br />
+Not tested with TinyMCE editor.
+]]></item>
+</note>
+<requirement>
+<entry><![CDATA[
+allowDowngrades: 1
+]]></entry>
+<entry><![CDATA[
+minimumJoomla: 3.9.0
+]]></entry>
+</requirement>
+</changelog>

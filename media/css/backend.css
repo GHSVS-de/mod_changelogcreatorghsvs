@@ -1,0 +1,11 @@
+/* CSS Document */
+.extended-width
+{
+	min-width:90%;
+}
+
+.column-count-md-2,
+.column-count-lg-3
+{
+	column-count: 1 !important;
+}

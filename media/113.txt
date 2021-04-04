@@ -1,0 +1,75 @@
+<changelog>
+<element>bs3ghsvs</element>
+<type>plugin</type>
+<folder>system</folder>
+<version>2020.08.30</version>
+<change>
+<item><![CDATA[
+Updating spatie/schema-org (2.14.1 =&gt; 3.0.0)
+]]></item>
+<item><![CDATA[
+BackToTop: &lt;button&gt; with scroll JavaScript exchanged with &lt;a&gt; and jumping without JS to id=#TOP since I use tocGhsvs Javascript.
+]]></item>
+<item><![CDATA[
+bootstrap ^4.5.1  =&gt;  ^4.5.2
+]]></item>
+<item><![CDATA[
+bootstrap-icons  ^1.0.0-alpha5  =&gt;  ^1.0.0
+]]></item>
+<item><![CDATA[
+Close buttons of modals are now embedded SVG.
+]]></item>
+</change>
+<remove>
+<item><![CDATA[
+Directory '/media/plg_system_bs3ghsvs/js/skipto'
+]]></item>
+<item><![CDATA[
+'/plugins/system/bs3ghsvs/vendor/spatie/schema-org/src/Contracts/LockerDeliveryContract.php'
+]]></item>
+<item><![CDATA[
+'/plugins/system/bs3ghsvs/vendor/spatie/schema-org/src/LockerDelivery.php'
+]]></item>
+<item><![CDATA[
+'/plugins/system/bs3ghsvs/vendor/spatie/schema-org/src/ParcelService.php'
+]]></item>
+<item><![CDATA[
+'/plugins/system/bs3ghsvs/vendor/spatie/schema-org/src/Contracts/ParcelServiceContract.php'
+]]></item>
+</remove>
+<addition>
+<item><![CDATA[
+Embedded SVGs: One can pass/add additional SPAN classes. Example: <code>{svg{bi/x-circle-fill}class="text-danger"}</code>.
+]]></item>
+<item><![CDATA[
+tocGhsvs javascript. <b>Not ready yet!</b>
+]]></item>
+</addition>
+<note>
+<item><![CDATA[
+<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs/releases/download/2020.08.30/plg_system_bs3ghsvs-2020.08.30.zip" >Direct download</a>
+]]></item>
+<item><![CDATA[
+<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs/releases/tag/2020.08.30" >Release page, more infos</a>
+]]></item>
+<item><![CDATA[
+<a href="https://updates.ghsvs.de/changelog.php?file=bs3ghsvs&version=2020.08.30" >Changelogs</a>
+]]></item>
+<item><![CDATA[
+Last tests: PHP7.4<br />
+Joomla3.9.21<br />
+Edge (Chromium)/Firefox/Vivaldi
+]]></item>
+</note>
+<requirement>
+<entry><![CDATA[
+minimumPhp: 7.2.0
+]]></entry>
+<entry><![CDATA[
+minimumJoomla: 3.9.8
+]]></entry>
+<entry><![CDATA[
+maximumJoomla: 3.10.x
+]]></entry>
+</requirement>
+</changelog>
